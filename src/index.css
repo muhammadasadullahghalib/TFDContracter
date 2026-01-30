@@ -1,0 +1,39 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink: #0e2a22;
+  --forest: #183b2f;
+  --sage: #7b9b7b;
+  --sun: #f4b55f;
+  --clay: #c56b3c;
+  --sand: #f5efe6;
+  --stone: #d3c8bb;
+  --pebble: #ece6dc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at 10% 10%, rgba(244, 181, 95, 0.25), transparent 45%),
+    radial-gradient(circle at 90% 15%, rgba(123, 155, 123, 0.2), transparent 40%),
+    linear-gradient(180deg, #f8f3ec 0%, #f1e7db 100%);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "DM Serif Display", serif;
+  letter-spacing: 0.4px;
+}
+
+p {
+  line-height: 1.7;
+}
